@@ -1,0 +1,134 @@
+.statusConatiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    color: white;
+}
+.icon-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.text-container{
+    width: 100%;
+    margin-top: 10px;
+    justify-content: space-around;
+    font-size: 12px;
+    color: grey;
+    padding-right: 13px;
+}
+
+.circle{
+    min-width: 30px;
+    min-height: 30px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3px;
+}
+.marginLine{
+    border:1px solid grey;
+    background-color: grey;
+    height: 0;
+    width: 25%;
+
+}
+.rowDirection{
+    display: flex;
+    flex-direction: row;
+}
+
+.form-type-container{
+    height: 50px;
+    
+}
+.formCat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex:1;
+    cursor: pointer;
+
+}
+.input-container{
+    border-bottom: 2px solid grey;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin-top: 15px;
+
+}
+
+input[type=text], select {
+    width: 100%;
+    padding-left: 5px;
+    display: inline-block;
+    border: 0px solid #ccc;
+    box-sizing: border-box;
+    height: 100%;
+  }
+
+ 
+  
+button[id=next]{
+    width:100px;
+    background-color: #3e51b4;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+button[id=previous]{
+    width:100px;
+    background-color:white;
+    color: #3e51b4;
+    border: 1px solid #3e51b4;
+    padding: 9px 9px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+div[id=errorMessage]{
+    color:red;
+    font-size: 12px;
+    width: 90%;
+}
+
+.page-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+}
+li{
+    margin-top: 10px;
+}
+h3{
+    text-align: center;
+    margin-left: -50px;
+}
+div[id='currency']{
+    font-size: small;
+    margin-top: 5px;
+}
+.fixed-width{
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
